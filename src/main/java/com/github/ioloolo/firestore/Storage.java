@@ -27,7 +27,7 @@ public final class Storage<T extends Data> {
 
 	private final Class<T> clazz;
 
-	public Storage(Class<T> clazz) {
+	private Storage(Class<T> clazz) {
 		this.clazz = clazz;
 	}
 
